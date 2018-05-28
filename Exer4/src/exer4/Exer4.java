@@ -2,8 +2,10 @@
 Se uma superclasse define um construtor e uma subclasse também define um construtor,
 de quem é a responsabilidade pela construção de um objeto da subclasse: do construtor 
 da superclasse, do construtor da subclasse ou de ambos?
-Resposta: a responsabilidade pela construção de um objeto da subclasse vai de amba, da 
-superclasse e da subclasse */
+Resposta: : a responsabilidade pela construção de um objeto da subclasse é de ambos. 
+Em primeiro lugar, o construtor da superclasse inicia os atributos da superclasse, 
+depois o construtor da subclasse termina de construir o objeto, iniciando os atributos da subclasse,
+nesta ordem. */
 package exer4;
 /**
  *
