@@ -13,7 +13,6 @@ public class Exer4 {
   
     public static void main(String[] args) {
         Cachorro cao = new Cachorro("Pastor-alemao", 8.5, "Carne");
-       
         
     }
     
